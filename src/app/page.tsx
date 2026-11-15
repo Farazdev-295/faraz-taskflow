@@ -1,4 +1,4 @@
-import HeroSection from "../../components/heroSection"
+import HeroSection from "../components/heroSection"
 const page = () => {
   return (
     <>
