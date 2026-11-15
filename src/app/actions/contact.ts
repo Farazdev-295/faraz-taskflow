@@ -9,7 +9,7 @@ export async function submitContactForm(data: TContactForm) {
     return { success: false, errors: result.error.flatten().fieldErrors };
   }
 
-  console.log("Server Action Received Valid Data:", result.data);
+  console.log("Server Action Received Valid Data :", result.data);
 
   return { success: true, message: "Form submitted successfully!" };
 }
